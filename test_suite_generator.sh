@@ -1,6 +1,6 @@
 #!/bin/bash
 
-testList=(pts/compress-gzip pts/sqlite pts/apache pts/pgbench pts/compilebench pts/iozone pts/dbench pts/fs-mark pts/fio pts/tiobench pts/postmark pts/aio-stress pts/unpack-linux pts/network-loopback pts/botan pts/gnupg pts/openssl pts/gcrypt pts/john-the-ripper pts/ramspeed pts/t-test1 pts/stream pts/iperf pts/netperf)
+testList=(pts/compress-gzip pts/sqlite pts/apache pts/pgbench pts/compilebench pts/iozone pts/dbench pts/fs-mark pts/fio pts/tiobench pts/postmark pts/aio-stress pts/unpack-linux pts/network-loopback pts/botan pts/gnupg pts/openssl pts/gcrypt pts/john-the-ripper pts/memory pts/t-test1 pts/iperf pts/netperf)
 
 filePrefix=$1
 
