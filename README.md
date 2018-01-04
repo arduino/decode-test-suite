@@ -17,7 +17,7 @@ This installation will take several hours on an embedded board. Leave it working
 * run the test generator: ./test_suite_generator.sh decode ; this will generate teh xml file "decode-suite-definition.xml"
 * make the installation script executable: chmod 777 install_test_suite.sh
 * install the test definition: ./install_test_suite.sh decode-suite-definition.xml <BOARD_NAME>
-* install the tests: phoronix-test-suite install decode-test-suite
+* install the tests: phoronix-test-suite install decode-suite
 * patch the tests
 
 XXX: more in depth instructions will follow
