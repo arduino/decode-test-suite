@@ -23,15 +23,15 @@
       <SearchMediaForCache>TRUE</SearchMediaForCache>
       <SymLinkFilesFromCache>FALSE</SymLinkFilesFromCache>
       <PromptForDownloadMirror>FALSE</PromptForDownloadMirror>
-      <EnvironmentDirectory>/media/hdd/olimex/installed-tests/</EnvironmentDirectory>
-      <CacheDirectory>/media/hdd/olimex/download-cache/</CacheDirectory>
+      <EnvironmentDirectory>/media/hdd/BOARD_NAME/installed-tests/</EnvironmentDirectory>
+      <CacheDirectory>/media/hdd/BOARD_NAME/download-cache/</CacheDirectory>
   </Installation>
     <Testing>
       <SaveSystemLogs>TRUE</SaveSystemLogs>
       <SaveInstallationLogs>FALSE</SaveInstallationLogs>
       <SaveTestLogs>FALSE</SaveTestLogs>
       <RemoveTestInstallOnCompletion></RemoveTestInstallOnCompletion>      
-      <ResultsDirectory>/media/hdd/olimex/test-results/</ResultsDirectory>      
+      <ResultsDirectory>/media/hdd/BOARD_NAME/test-results/</ResultsDirectory>      
       <AlwaysUploadResultsToOpenBenchmarking>FALSE</AlwaysUploadResultsToOpenBenchmarking>
       <AutoSortRunQueue>TRUE</AutoSortRunQueue>
     </Testing>
@@ -66,7 +66,7 @@
       <Password></Password>
       <WebSocketPort>RANDOM</WebSocketPort>
       <AdvertiseServiceZeroConf>TRUE</AdvertiseServiceZeroConf>      
-      <PhoromaticStorage>/media/hdd/olimex/phoromatic/</PhoromaticStorage>      
+      <PhoromaticStorage>/media/hdd/BOARD_NAME/phoromatic/</PhoromaticStorage>      
     </Server>
   </Options>
 </PhoronixTestSuite>
