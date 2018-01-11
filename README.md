@@ -10,7 +10,7 @@ This installation will take several hours on an embedded board. Leave it working
 
 # instructions on installation of everything
 
-* install the dependencies for the Phoronix Test Suite: sudo apt-get install bzip2 sqlite3 curl php5-cli bc
+* install the dependencies for the Phoronix Test Suite: sudo apt-get install bzip2 sqlite3 curl php5-cli bc zip
 * install the Phoronix Test Suite in your environment
 * in order to perform the network loopback test, you need to overwrite the netcat coming by default with Devuan, run sudo apt-get install netcat-openbsd
 * download this repository and execute: chmod 777 test_suite_generator.sh ; to make the suite generator executable
