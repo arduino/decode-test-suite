@@ -16,6 +16,8 @@ fi
 cp ${testToMove} ${ptsFolder}${testSuiteFolder}"suite-definition.xml"
 
 # patch the configuration file
+# note: in non system installation, the file to substitute is not the one
+#       under /etc/ but the one named user-config.xml under /home/XXX/.phoronics-test-suite
 
 cp /etc/phoronix-test-suite.xml ./phoronix-test-suite.xml.old
 
