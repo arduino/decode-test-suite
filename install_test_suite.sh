@@ -6,7 +6,8 @@ boardName=$2
 
 testSuiteFolder="decode-suite/"
 
-ptsFolder="/var/lib/phoronix-test-suite/test-suites/local/"
+#old version ptsFolder="/var/lib/phoronix-test-suite/test-suites/local/"
+ptsFolder="~/.phoronix-test-suite/test-suites/local/"
 
 if [ ! -d ${ptsFolder}${testSuiteFolder} ] ; then
         mkdir ${ptsFolder}${testSuiteFolder}
