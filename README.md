@@ -18,7 +18,7 @@ This installation will take several hours on an embedded board. Leave it working
 * (eventually you might have to create the mountpoint mkdir /media/hdd; mkdir /media/hdd/ext)
 * if it doesn't exist, create the folder for the tests: mkdir /media/hdd/ext/decode-tests
 * if it doesn't exist, create the folder for the board: mkdir /media/hdd/ext/decode-tests/<BOARD_NAME>
-* run the test generator: ./test_suite_generator.sh decode ; this will generate teh xml file "decode-suite-definition.xml"
+* run the test generator: ./test_suite_generator.sh decode ; this will generate the xml file "decode-suite-definition.xml"
 * make the installation script executable: chmod 777 install_test_suite.sh
 * install the test definition: ./install_test_suite.sh decode-suite-definition.xml <BOARD_NAME>
 * install the tests: phoronix-test-suite install decode-suite
